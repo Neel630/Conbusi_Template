@@ -1,0 +1,31 @@
+/* Backgroung header image */
+.headerBackgroung{
+    background-image: url(../images/banner/banner_2.png);
+    background-size: 100%;
+}
+
+.navButton{
+padding: 12px 14px;
+font-weight: 600;
+background-color: transparent;
+border: none;
+}
+
+.navButton:hover{
+    border-bottom: 3px solid blue;
+    transition-delay: .2s;
+    transition-property: initial;
+}
+
+.jumbotron{
+    background: none;
+}
+
+#white{
+    color: white;
+}
+
+#roundButton{
+    padding: 12px 14px;
+    border-radius: 30px;
+}
