@@ -1,12 +1,16 @@
 /* Backgroung header image */
-.headerBackgroung{
+.headerBackground{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner/banner_2.png);
-    height: 70vh;
+    height: 80vh;
     background-repeat: no-repeat;
     max-width: 100%;
     color: white;
     background-size: cover;
     background-position: 50% 50%;
+}
+
+.mraginHeaderBG{
+    margin:10%;
 }
 
 .navButton{
@@ -65,11 +69,30 @@ border: none;
     background-position: 50% 50%;
 }
 
-.analysisContainer{
+.paddingContainer{
     padding-top: 10%;
 }
 
 .analysisBox{
     width: 400px;
 
+}
+
+.testimonialsBg{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner/testmonial.png);
+    background-size: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: white;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.marginTestimonials{
+    margin: 0 20%;
+}
+
+.marginResopnse{
+    margin-left: 10%;
 }
