@@ -3,6 +3,11 @@
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner/banner_2.png);
     background-size: 100%;
     height: 70vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: white;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .navButton{
@@ -10,6 +15,9 @@ padding: 12px 14px;
 font-weight: 600;
 background-color: transparent;
 border: none;
+}
+.border-buttom{
+    border-bottom: 2px whitesmoke;
 }
 
 .navButton:hover{
@@ -29,4 +37,19 @@ border: none;
 #roundButton{
     padding: 12px 14px;
     border-radius: 30px;
+}
+
+.aboutUsBox{
+    width: 300px;
+    height: 280px;
+}
+
+.imageAboutUs{
+    height: auto;
+    width: 300px;
+}
+
+.margin-aboutUs{
+    margin-top: 8%;
+    margin-bottom: 6%;
 }
