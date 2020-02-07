@@ -41,7 +41,7 @@ border: none;
 
 .aboutUsBox{
     /* width: 300px; */
-    height: auto;
+    height: 300px;
 }
 
 .imageAboutUs{
@@ -67,4 +67,9 @@ border: none;
 
 .analysisContainer{
     padding-top: 10%;
+}
+
+.analysisBox{
+    width: 400px;
+
 }
